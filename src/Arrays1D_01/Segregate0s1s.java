@@ -1,4 +1,4 @@
-package Arrays_01;
+package Arrays1D_01;
 
 public class Segregate0s1s {
     public static void main(String[] args) {
