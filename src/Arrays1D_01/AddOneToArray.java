@@ -1,5 +1,8 @@
 package Arrays1D_01;
 
+//Try another way
+
+
 public class AddOneToArray {
         public static void main(String[] args) {
             int[] arr = {9, 9, 9};
