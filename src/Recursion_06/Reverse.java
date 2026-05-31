@@ -1,4 +1,4 @@
-package Recursion01_06;
+package Recursion_06;
 
 public class Reverse {
     public static int reverse(int n,int r) {

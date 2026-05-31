@@ -1,6 +1,6 @@
 package Arrays2D_05;
 
-public class MinElementInMaxFromeachRow {
+public class MinElementInMaxForEachRow {
     public static void main(String[] args) {
         int[][] arr = {{6,0,2,7,6},{1,3,6,2,2},{9,9,4,5,2}};
         int minOfMax = Integer.MAX_VALUE; //arr[0][0]

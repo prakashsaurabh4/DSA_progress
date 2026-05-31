@@ -1,4 +1,4 @@
-package Recursion01_06;
+package Recursion_06;
 
 public class GlobalVariable {
 
