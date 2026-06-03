@@ -12,7 +12,7 @@ public class SecondMaxInArray {
             }
         }
         for(int i=0;i<arr.length;i++){
-            if(arr[i] > max2 && arr[i] !=max){
+            if(arr[i] > max2 && arr[i] != max){
                 max2 = arr[i];
             }
         }
