@@ -45,7 +45,6 @@ public class ArrayListInJava {
         Collections.reverse(arr);
         System.out.print(arr);
 
-
         System.out.println();
         int i=0,j=arr.size()-1;
         while(i<j){

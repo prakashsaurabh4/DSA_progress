@@ -26,9 +26,9 @@ public class UserDefinedDataType {
         s3.rno = 87345;
         s3.cgpa = 9.5;
 
-        System.out.println(s1.name + " " + s1.rno + " " + s1.cgpa);
-        s1.cgpa = 9.2;  //Changing the cgpa
-        System.out.println(s1.name + " " + s1.rno + " " + s1.cgpa);
+//        System.out.println(s1.name + " " + s1.rno + " " + s1.cgpa);
+//        s1.cgpa = 9.2;  //Changing the cgpa
+//        System.out.println(s1.name + " " + s1.rno + " " + s1.cgpa);
 
 
 //        System.out.println(s2.name + " " + s2.rno + " " + s2.cgpa);

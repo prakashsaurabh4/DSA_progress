@@ -1,0 +1,38 @@
+package OOPS_08;
+
+class Pokemon{
+    int power;
+    String type;
+    Pokemon(String type,int power){
+        this.power = power;
+        this.type = type;
+    }
+    int getPower(){
+        return power;
+    }
+    Pokemon(){}
+    void print(){
+        System.out.println(this.power + " " + this.type);
+    }
+}
+class StrongPokemon extends Pokemon{
+    int speed;
+}
+class LegendaryPokemon extends Pokemon{  //SubClass OR childClass
+    String ability;
+}
+class GodPokemon extends LegendaryPokemon{
+    char tag;
+}
+
+public class Inheitance {
+    public static void main(String[] args) {
+        LegendaryPokemon mewtwo = new LegendaryPokemon();
+        mewtwo.ability = "Pressure";
+        Pokemon pikachu = new Pokemon();
+        GodPokemon dialog = new GodPokemon();
+        dialog.print();
+        mewtwo.print();
+
+    }
+}

@@ -22,6 +22,7 @@ public class PassingClassesToMethods {
         c.length = 178;
         c.type = "SUV";
 
+        System.out.println(c.seat);
         change(c);
         System.out.println(c.seat);
         c.print();

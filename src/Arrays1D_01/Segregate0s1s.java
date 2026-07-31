@@ -17,13 +17,12 @@ public class Segregate0s1s {
         for (int i = 0; i < numberOfZeros; i++) {
             arr[i] = 0;
         }
-
-        // Fill 1s — Bug 1 Fixed: start from numberOfZeros, not 0
+        // Fill 1s
         for (int i = numberOfZeros; i < arr.length; i++) {
             arr[i] = 1;
         }
 
-        // Print — Bug 2 Fixed: loop through array, i is out of scope outside loop
+
         System.out.print("After: ");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
